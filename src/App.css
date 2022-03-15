@@ -7,6 +7,24 @@
   pointer-events: none;
 }
 
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(79, 113, 145);
+}
+.navbar ul li {
+  list-style: none;
+  padding: 10px;
+}
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
